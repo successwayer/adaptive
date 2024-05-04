@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "IBM Plex Sans", sans-serif;
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    background-color: #fdfaf2;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 150px;
+}
+
+section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.buyButton {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 40px;
+    width: 140px;
+    font-weight: bold;
+    background-color: rgb(237, 237, 88);
+    height: 40px;
+    border: 4px solid black;
+    border-radius: 20px;
+}
+
+.NastyaBlock {
+    width: 400px;
+}
+
+.detailsWidth {
+    width: 400px;
+}
+
+.infoImageWidth {
+    width: 350px;
+}
+
+.summartWidth {
+    width: 380px;
+}
+
+.cv {
+    position: absolute;
+    width: 300px;
+    bottom: 70px;
+    left: 40px;
+}
+
+.sectionText {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.eduImage {
+    width: 70%;
+}
+
+.widthForImages{
+    width: 350px;
+}
+
+@media only screen and (max-width: 1090px) {
+    .NastyaBlock {
+        margin-left: 250px;
+        
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .NastyaBlock {
+        margin-left: 50px;
+        padding-top: 50px;
+    }
+
+    .sectionText{
+        font-size: 28px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .eduImage {
+        width: 90%;
+    }
+    .cv {
+        left: 0px;
+    }
+
+    .NastyaBlock {
+        margin-left: -20px;
+        width: 320px;
+    }
+
+    .detailsWidth {
+        width: 100%;
+    }
+
+    .infoImageWidth {
+        width: 300px;
+        margin-left: -20px;
+    }
+
+    .container4 {
+        width: 300px;
+    }
+
+    .summartWidth {
+        width: 250px;
+    }
+
+    .widthForImages{
+        width: 320px;
+    }
+}
